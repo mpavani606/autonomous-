@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 760" role="img" aria-labelledby="title description">
+  <title id="title">Smart Study Planner learning flow</title>
+  <desc id="description">A personalized learning cycle from student goals through AI analysis, a knowledge graph, study planning, learning activities, performance analysis, and automatic replanning.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4f1ff"/>
+      <stop offset=".52" stop-color="#eef7ff"/>
+      <stop offset="1" stop-color="#f0fff8"/>
+    </linearGradient>
+    <linearGradient id="goal" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#4f8df7"/>
+      <stop offset="1" stop-color="#6664e8"/>
+    </linearGradient>
+    <linearGradient id="agents" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#9461ed"/>
+      <stop offset="1" stop-color="#cb58c8"/>
+    </linearGradient>
+    <linearGradient id="graph" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#20a9c6"/>
+      <stop offset="1" stop-color="#4b83e9"/>
+    </linearGradient>
+    <linearGradient id="plan" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#18a779"/>
+      <stop offset="1" stop-color="#37bd9a"/>
+    </linearGradient>
+    <linearGradient id="learn" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f59a38"/>
+      <stop offset="1" stop-color="#f06b78"/>
+    </linearGradient>
+    <linearGradient id="analysis" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#536bdc"/>
+      <stop offset="1" stop-color="#825fe5"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#34456b" flood-opacity=".14"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 10 5 0 10Z" fill="#8796bd"/>
+    </marker>
+    <style>
+      .title { font: 700 34px Inter, Segoe UI, sans-serif; fill: #22244a; }
+      .subtitle { font: 500 17px Inter, Segoe UI, sans-serif; fill: #6e7392; }
+      .card-title { font: 700 18px Inter, Segoe UI, sans-serif; fill: #fff; }
+      .card-copy { font: 500 13px Inter, Segoe UI, sans-serif; fill: #fff; opacity: .9; }
+      .loop-label { font: 700 15px Inter, Segoe UI, sans-serif; fill: #5542bd; }
+      .small { font: 600 12px Inter, Segoe UI, sans-serif; fill: #727895; }
+    </style>
+  </defs>
+  <rect width="1440" height="760" rx="34" fill="url(#background)"/>
+  <circle cx="123" cy="115" r="78" fill="#fff" opacity=".48"/>
+  <circle cx="1320" cy="640" r="120" fill="#fff" opacity=".4"/>
+  <text x="720" y="75" text-anchor="middle" class="title">Your learning journey, intelligently connected</text>
+  <text x="720" y="108" text-anchor="middle" class="subtitle">A continuous AI cycle that learns from your goals, notes and performance</text>
+
+  <path d="M258 280H316" fill="none" stroke="#8796bd" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M483 280H541" fill="none" stroke="#8796bd" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M708 280H766" fill="none" stroke="#8796bd" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M933 280H991" fill="none" stroke="#8796bd" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M1158 280H1216" fill="none" stroke="#8796bd" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="91" y="196" width="167" height="168" rx="24" fill="url(#goal)"/>
+    <rect x="316" y="196" width="167" height="168" rx="24" fill="url(#agents)"/>
+    <rect x="541" y="196" width="167" height="168" rx="24" fill="url(#graph)"/>
+    <rect x="766" y="196" width="167" height="168" rx="24" fill="url(#plan)"/>
+    <rect x="991" y="196" width="167" height="168" rx="24" fill="url(#learn)"/>
+    <rect x="1216" y="196" width="167" height="168" rx="24" fill="url(#analysis)"/>
+  </g>
+
+  <g fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="174" cy="241" r="19"/><circle cx="174" cy="241" r="8"/><path d="m188 227 12-12m-10 2 8 8"/>
+    <path d="M371 226h28v31h-28zM379 219h12v8h-12zM378 237h14m-14 8h14"/>
+    <circle cx="610" cy="233" r="11"/><circle cx="581" cy="260" r="9"/><circle cx="640" cy="260" r="9"/><path d="m602 241-14 12m30-12 14 12"/>
+    <path d="M820 222h37v40h-37zM828 233h21m-21 8h21m-21 8h13"/>
+    <path d="M1045 218v34m-13-13 13 13 13-13M1027 264h36"/>
+    <path d="M1255 257v-29m0 29h37m-31-8 10-11 9 5 13-16"/>
+  </g>
+  <text x="174" y="300" text-anchor="middle" class="card-title">Student Goal</text>
+  <text x="174" y="326" text-anchor="middle" class="card-copy">Goal · time · skill level</text>
+  <text x="399" y="300" text-anchor="middle" class="card-title">AI Agents</text>
+  <text x="399" y="326" text-anchor="middle" class="card-copy">Analyze · recommend</text>
+  <text x="624" y="300" text-anchor="middle" class="card-title">Knowledge Graph</text>
+  <text x="624" y="326" text-anchor="middle" class="card-copy">Prerequisites · mastery</text>
+  <text x="849" y="300" text-anchor="middle" class="card-title">Personalized Plan</text>
+  <text x="849" y="326" text-anchor="middle" class="card-copy">Daily · weekly · revision</text>
+  <text x="1074" y="300" text-anchor="middle" class="card-title">Learn &amp; Practice</text>
+  <text x="1074" y="326" text-anchor="middle" class="card-copy">Notes · quizzes · tasks</text>
+  <text x="1299" y="300" text-anchor="middle" class="card-title">Analyze Progress</text>
+  <text x="1299" y="326" text-anchor="middle" class="card-copy">Accuracy · confidence</text>
+
+  <path d="M1298 390v86q0 42-42 42H192q-42 0-42-42v-80" fill="none" stroke="#9a87e8" stroke-width="4" stroke-dasharray="10 10" marker-end="url(#arrow)"/>
+  <rect x="472" y="474" width="496" height="96" rx="26" fill="#fff" stroke="#e5defe" stroke-width="2" filter="url(#shadow)"/>
+  <circle cx="526" cy="522" r="23" fill="#eee9ff"/>
+  <path d="M516 522a10 10 0 0 1 17-7l4 4m0-7v7h-7m5 3a10 10 0 0 1-17 7l-4-4m0 7v-7h7" fill="none" stroke="#7458dc" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="566" y="516" class="loop-label">Automatic re-planning</text>
+  <text x="566" y="541" class="small">Weak areas trigger revisions, new practice and an updated plan</text>
+  <text x="720" y="638" text-anchor="middle" class="subtitle">Every study session makes the next plan more personal and more effective.</text>
+  <g fill="#f7ba43">
+    <path d="m254 140 5 13 13 5-13 5-5 13-5-13-13-5 13-5z"/>
+    <path d="m1167 120 4 10 10 4-10 4-4 10-4-10-10-4 10-4z"/>
+  </g>
+</svg>
